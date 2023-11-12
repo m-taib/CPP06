@@ -54,8 +54,8 @@ void 	identify(Base& p)
 				std::cout << "C" << std::endl;
 			}
 			catch (const std::exception &e) 
-			{ 
-				std::cout << "unkown type" << std::endl; 
+			{
+				std::cout << e.what() << std::endl;	
 			}
 		}
 	}

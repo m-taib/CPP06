@@ -2,6 +2,7 @@
 #define SERIALIZE_HPP
 
 #include <iostream>
+
 struct Data
 {
 	int		a;
